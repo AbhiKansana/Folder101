@@ -1,4 +1,215 @@
-h1{
-    background-color: antiquewhite;
-    color: aquamarine;
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+img{
+    cursor: pointer;
+}
+
+     /******** NAVBAR********/
+
+.navbar{
+    padding: 15px 150px 0;
+    padding-left: 40px;
+    margin-bottom: 20px;
+   display: grid;
+   grid-template-columns: repeat(10,1fr);
+   grid-template-areas: 
+   'logo logo  men women mid mid1 right1 right1 right1 right1';
+   background-color: aliceblue;
+   position: fixed; top: 0; left: 0;
+    z-index: 9999; 
+    width: 100%;
+     height: 50px;
+    background-color: #9cddd3;
+   margin-bottom: 20px;
+   
+    
+     
+}  
+.navbar .right1 img{
+    width: 30px;
+}
+
+
+.navbar .logo img{
+    width: 150px;
+    cursor: pointer;
+}
+
+.logo{
+    grid-area: logo;
+}
+.men{
+    grid-area: men;
+}
+.women{
+    grid-area: women;
+}
+.right1{
+    grid-area: right1;
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+}
+.mid{
+    grid-area: mid;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar input{
+    height: 28px;
+    border-radius: 5px;
+    padding: 2px;
+    border-width: .2px;
+    width: 240px;
+    border: none;
+    background-color:#EAEAEA ;
+    color: black;
+    padding-left: 4px;
+}
+
+/******** SLIDER********/
+.slider{
+    padding: 30px 0;
+   margin: 2rem;
+
+   
+}
+
+  .slider div > img{
+      width: 90%;
+      margin: auto;
+      cursor: pointer;
+      
+
+  }
+
+  /* SECOND */
+  .second_top {
+    margin: 0px auto 20px;
+}
+.second_top img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.second_bottom{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 30px;
+}
+.second_bottom img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.second_bottom p {
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -2px;
+}
+/* THIRD */
+.third h2,h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .6px;
+    word-spacing: 4px;
+}
+.third h2{
+    margin-bottom: 5px;
+}
+.thirdImg img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* FOURTH */
+.fourth_main{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+ }
+ .fourth_main img{
+     width: 100%;
+ }
+ /* FIFTH  */
+.fifth_box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.fifth_box img{
+    width: 100%;
+}
+
+/* SIXTH  */
+.sixth{
+    position: relative;
+}
+.sixth_1,.sixth_2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.sixth_1 img,.sixth_2 img{
+    width: 100%;
+    
+}
+.sixth h3{
+    text-align: center;
+}
+#sixth-2{
+    display: none;
+}
+.carousel{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    
+   
+}
+.carousel button{
+    border-radius: 50px;
+    
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+ button#carousel-button-prev {
+    margin-left: 20px;
+    
+}
+ button#carousel-button-next {
+    margin-right: 20px;   
+}
+
+/* ANIMATION */
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* SEVENTH */
+
+.seventh img{
+    width: 100%;
+}
+.seventh h2{
+    margin: 10px;
+}
+ 
+
+
