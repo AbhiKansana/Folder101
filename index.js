@@ -29,5 +29,9 @@ function raju(){
     console.log(d,"shyam")
 }
 
+function lulu(){
+console.log("raj")
+}
+
 
       
