@@ -24,14 +24,5 @@ function toMenPage(){
      
 }
 
-function raju(){
-    let d = babu
-    console.log(d,"shyam")
-}
-
-function lulu(){
-console.log("raj")
-}
-
 
       
