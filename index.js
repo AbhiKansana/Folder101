@@ -24,9 +24,9 @@ function toMenPage(){
      
 }
 
-function some(){
-    let x = 3
-    console.log(x)
+function raju(){
+    let d = babu
+    console.log(d,"shyam")
 }
 
 
