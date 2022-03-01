@@ -21,7 +21,10 @@ function slidingImg(){
  
 function toMenPage(){
     window.location.href = "men.html"
+     
 }
+
+// Tomorrow we are going to mumbai
 
 
       
