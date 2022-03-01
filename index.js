@@ -29,5 +29,9 @@ function some(){
     console.log(x)
 }
 
+function lulu(){
+console.log("raj")
+}
+
 
       
