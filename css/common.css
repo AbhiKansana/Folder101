@@ -1,0 +1,75 @@
+ 
+
+ /******** NAVBAR********/
+
+ .navbar{
+    font-weight: 500;
+    padding: 15px 150px 0;
+    padding-left: 40px;
+    margin-bottom: 20px;
+   display: grid;
+   grid-template-columns: repeat(10,1fr);
+   grid-template-areas: 
+   'logo logo  men women mid mid1 right1 right1 right1 right1';
+   background-color: aliceblue;
+   position: fixed; top: 0; left: 0;
+    z-index: 1000; 
+    width: 100%;
+     height: 50px;
+    background-color: #9cddd3;
+   margin-bottom: 20px;
+   
+    
+     
+}  
+
+.navbar .men a:hover{
+   color:darkmagenta
+}
+
+ 
+
+
+.navbar .right1 img{
+    width: 30px;
+}
+
+
+.navbar .logo img{
+    width: 150px;
+    cursor: pointer;
+}
+
+.logo{
+    grid-area: logo;
+}
+.men{
+    grid-area: men;
+}
+.women{
+    grid-area: women;
+}
+.right1{
+    grid-area: right1;
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+}
+.mid{
+    grid-area: mid;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar input{
+    height: 28px;
+    border-radius: 5px;
+    padding: 2px;
+    border-width: .2px;
+    width: 240px;
+    border: none;
+    background-color:#EAEAEA ;
+    color: black;
+    padding-left: 4px;
+}

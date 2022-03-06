@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #181818;
+    color: rgba(221, 217, 217, 0.493);
+}
+img{
+    cursor: pointer;
+}
+
+.main{
+    padding: 10px;
+    margin-top: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+  
+}
+
+ /* FILTERS */
+
+
+ .filters > select{
+        font-size: 1.1rem;
+        width: 200px;
+        height: 40px;
+        border: none;
+        border-bottom: #181818 1px solid;
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+ }
+ .filters > select > option{
+     background-color: beige;
+ }
+
+ .remove{
+     display: none;
+ }
+
+ /* ITEMS */
+ 

@@ -20,7 +20,7 @@ function slidingImg(){
 
  
 function toMenPage(){
-    window.location.href = "men.html"
+    window.location.href = "html/men.html"
      
 }
 

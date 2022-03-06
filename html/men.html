@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/men.css">
+    <link rel="stylesheet" href="../css/common.css">
     <title>Document</title>
 </head>
 <body>
     <div class="nav">
         <div class="navbar">
             <div class="logo">
-                <img onclick="location.href='index.html'"  src="https://images.bewakoof.com/web/bewakoof-primary-logo-white-bg-2x-1635745564.png" alt="">
+                <img onclick="location.href='../index.html'"  src="https://images.bewakoof.com/web/bewakoof-primary-logo-white-bg-2x-1635745564.png" alt="">
             </div>
             <div class="men">
                 <a href="men.html">MEN</a>
             </div>
             <div class="women">
-             <a href="women.html">WOMEN</a>
+             <a href="#">WOMEN</a>
          </div>
          <div class="mid"></div>
          <div class="right1">
@@ -33,7 +35,50 @@
         </div>
     </div>
     <div class="main">
+    <div class="filters">
+        <h3>Filters</h3>
+          <select name="" id="category">
+              <option  class="remove"value="">Category</option>
+              <option value="T-shirt">T-shirts</option>
+              <option value="Pants">Pants</option>
+              <option value="Shoes">Shoes</option>
+              <option value="Jackets">Jackets</option>
+          </select> <br>
+          <select name="" id="sizes">
+            <option  class="remove" value="">Sizes</option>
+            <option value="XXL">XXL</option>
+            <option value="XL">XL</option>
+            <option value="M">M</option>
+            <option value="S">S</option>
+        </select> <br>
+        <select name="" id="brands">
+            <option  class="remove" value="">Brands</option>
+            <option value="Nike">Nike</option>
+            <option value="Array">Array</option>
+            <option value="Levis">Levis</option>
+            <option value="Light">Light</option>
+        </select> <br>
+        <select name="" id="rating">
+            <option  class="remove" value="">Rating</option>
+            <option value="4.5">4.5 and above</option>
+            <option value="4">4 and above</option>
+            <option value="3">3 and above</option>
+            <option value="2">2 and above</option>
+        </select> <br>
+        <select name="" id="price">
+            <option  class="remove" value="">Sort by price</option>
+            <option value="h2l">High to low</option>
+            <option value="l2h">Low to high</option>
+           
+        </select>
 
+    </div>
+
+    <div class="items">
+         
+    </div>
     </div>
 </body>
 </html>
+
+<script src="../js/men.js"></script>
