@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #181818;
+    color: white;
 }
 img{
     cursor: pointer;
@@ -10,6 +12,7 @@ img{
      /******** NAVBAR********/
 
 .navbar{
+    font-weight: 500;
     padding: 15px 150px 0;
     padding-left: 40px;
     margin-bottom: 20px;
@@ -28,6 +31,14 @@ img{
     
      
 }  
+
+.navbar .men a:hover{
+   color:darkmagenta
+}
+
+ 
+
+
 .navbar .right1 img{
     width: 30px;
 }
