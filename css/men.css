@@ -43,3 +43,16 @@ img{
 
  /* ITEMS */
  
+ #items{
+     display: grid;
+     gap: 30px;
+     grid-template-columns: repeat(3,1fr);
+
+ }
+
+ #items img{
+     width: 250px;
+     height: 300px;
+     object-fit: cover;
+ }
+ 

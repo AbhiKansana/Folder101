@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+#main{
+   
+    width: 45%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+   
+}
+#main img{
+    width: 350px;
+    height: 462px;
+    object-fit: cover;
+}
+
+.both{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 40px;
+}
+
+.info{
+    width: 35%;
+    text-align: center;
+}
