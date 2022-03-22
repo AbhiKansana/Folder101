@@ -1,3 +1,9 @@
+
+ import navbar1 from './components.js'
+
+ document.getElementById("navbar").innerHTML = navbar1
+
+
 let arrCart = JSON.parse(localStorage.getItem("Cart11"))
 let price= 0
 

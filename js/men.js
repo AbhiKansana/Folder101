@@ -373,6 +373,8 @@ let  tshirtData = [
      },  
  ]
 
+
+
  tshirtData.map(function(ele){
      let som = `
      
@@ -397,3 +399,8 @@ let  tshirtData = [
      
 
  }
+
+  localStorage.clear()
+
+
+
