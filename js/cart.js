@@ -1,7 +1,5 @@
-
- import navbar1 from './components.js'
-
- document.getElementById("navbar").innerHTML = navbar1
+let x3 = "ramesh"
+localStorage.setItem("nulu",x3)
 
 
 let arrCart = JSON.parse(localStorage.getItem("Cart11"))

@@ -400,7 +400,7 @@ let  tshirtData = [
 
  }
 
-  localStorage.clear()
+
 
 
 

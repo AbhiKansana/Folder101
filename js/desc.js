@@ -1,8 +1,6 @@
 
 
-import navbar1 from './components.js'
 
-document.getElementById("navbar").innerHTML = navbar1
 
 let arr77 = JSON.parse(localStorage.getItem("itemNo1")) 
 
@@ -18,10 +16,18 @@ let som =`
         </div>
 
 `
-document.getElementById("main").innerHTML = som
+ document.getElementById("main").innerHTML = som
 
-let arrCart11 = JSON.parse(localStorage.getItem("Cart11")) || []
+  
+  
 function toCart(ele){
+  let arrCart11 = JSON.parse(localStorage.getItem("Cart11")) || []
+   
+  
     arrCart11.push(ele)
+    
   localStorage.setItem("Cart11",JSON.stringify(arrCart11))
+  // let arr99 = JSON.parse(localStorage.getItem("cat")) || []
+  // arr99.push(ele)
+  // localStorage.setItem("cat",JSON.stringify(arr99))
 }
